@@ -1,10 +1,8 @@
 # Microservices Assignment
-9/10/25
-
 Microservices architecture is a design approach where a single application is composed of small, independent services that communicate over well-defined APIs. Each service is focused on a specific business capability and can be developed, deployed, and scaled
 independently.
 
-This assignment illustrates microservices architecture using Python and Flask.
+This assignment illustrates microservices architecture using **Python and Flask**.
 
 I have created two microservices: one for managing users and another for managing orders. These services will communicate with each other via HTTP requests
 
