@@ -1,4 +1,5 @@
-# Microservices Assignment 09/10/2025
+# Microservices Assignment
+9/10/25
 
 Microservices architecture is a design approach where a single application is composed of small, independent services that communicate over well-defined APIs. Each service is focused on a specific business capability and can be developed, deployed, and scaled
 independently.
