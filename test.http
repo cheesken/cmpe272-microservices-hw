@@ -1,0 +1,42 @@
+# Get user =1 
+GET http://localhost:5001/users/1
+
+
+# Create user
+POST http://localhost:5001/users
+Content-Type: application/json
+
+{
+  "name": "Charlie",
+  "email": "charlie@example.com"
+}
+
+
+
+
+# Get order =1 
+GET http://localhost:5002/orders/1
+
+
+# Create Order
+POST http://localhost:5002/orders
+Content-Type: application/json
+
+{
+  "user_id": 1,
+  "product": "Tablet"
+}
+
+
+# Same
+POST http://localhost:5002/orders
+Content-Type: application/json
+
+{
+  "user_id": 3,
+  "product": "Mouse"
+}
+
+
+
+GET http://localhost:5002/orders
